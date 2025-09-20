@@ -37,6 +37,46 @@ streamlit-sales-analysis-dashboard/
 - Python 3  
 - Pandas  
 - Streamlit
+
+## ⚙️ Installation & How to Run
+
+1. Clone this repository:
+```bash
+git clone https://github.com/rafaelagodem/streamlit-sales-analysis-dashboard.git
+cd streamlit-sales-analysis-dashboard
+```
+
+2. Install dependencies:
+```bash
+pip install pandas streamlit
+```
+
+3. Run one of the Streamlit apps:
+
+**a) Pivot Tables Dashboard**
+```bash
+streamlit run scripts/pivot_table.py
+```
+
+**b) Summary Metrics Dashboard**
+```bash
+streamlit run scripts/data_volume.py
+```
+
+4. Open the local URL provided by Streamlit (something like `http://localhost:8501`) to explore the dashboard.
+
+## 📸 Screenshots
+
+### Pivot Tables Dashboard
+Example of the interactive pivot table view:
+<img width="1254" height="711" alt="Screenshot 2025-09-20 at 15 04 51" src="https://github.com/user-attachments/assets/cd6f0179-beb7-4c76-9f39-16fbd548090c" />
+
+
+### Summary Metrics Dashboard
+Example of the KPIs and aggregated metrics view:
+![Summary Metrics Dashboard](images/data_volume_example.png)
+
+
   
 🎯 Purpose
 This project demonstrates my ability to:
